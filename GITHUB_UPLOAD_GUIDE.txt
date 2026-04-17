@@ -1,0 +1,112 @@
+HOW TO PUT NOVA ON GITHUB
+=========================
+
+Follow these steps exactly. Takes about 10 minutes.
+
+─────────────────────────────────────────────
+PART 1 — CREATE YOUR GITHUB REPO
+─────────────────────────────────────────────
+
+1. Go to https://github.com and sign in (or create a free account)
+
+2. Click the green "New" button (top-left)
+
+3. Fill in:
+      Repository name:   Nova-Assistant
+      Description:       AI Voice Assistant for Windows
+      Visibility:        ✅ Public
+      Add README:        ❌ (we already have one)
+
+4. Click "Create repository"
+
+5. You'll see a page with a URL like:
+      https://github.com/YourUsername/Nova-Assistant
+
+
+─────────────────────────────────────────────
+PART 2 — UPLOAD YOUR FILES
+─────────────────────────────────────────────
+
+Option A — Easy (No Git needed, drag & drop):
+
+1. On your new repo page, click "uploading an existing file"
+2. Drag ALL these files into the browser window:
+      • nova_assistant_v9.py
+      • nova_ui.py
+      • requirements.txt
+      • README.md
+      • LICENSE
+      • nova.spec
+      • build.bat
+      • .gitignore
+3. Scroll down, type "Initial release" in the commit message box
+4. Click "Commit changes"
+5. Done! Your repo is live.
+
+
+Option B — Using Git (Command line):
+
+   Open Command Prompt in your project folder, then:
+
+   git init
+   git add .
+   git commit -m "Initial release of Nova AI Assistant"
+   git branch -M main
+   git remote add origin https://github.com/YourUsername/Nova-Assistant.git
+   git push -u origin main
+
+
+─────────────────────────────────────────────
+PART 3 — ADD THE DOCS FOLDER
+─────────────────────────────────────────────
+
+1. In your repo, click "Add file" → "Create new file"
+2. Type the name:   docs/Nova_Voice_Commands.docx
+   (GitHub will auto-create the docs/ folder)
+3. Upload the Nova_Voice_Commands.docx file
+
+
+─────────────────────────────────────────────
+PART 4 — CREATE A RELEASE WITH THE .EXE
+─────────────────────────────────────────────
+
+After you build Nova.exe using build.bat:
+
+1. Go to your repo page on GitHub
+2. Click "Releases" on the right side
+3. Click "Create a new release"
+4. Fill in:
+      Tag version:    v1.0
+      Release title:  Nova v1.0 — First Release
+      Description:    First public release of Nova AI Voice Assistant
+5. Under "Attach binaries", drag in:   dist/Nova.exe
+6. Click "Publish release"
+
+Now anyone can go to your repo, click Releases,
+and download Nova.exe directly — no Python needed!
+
+
+─────────────────────────────────────────────
+PART 5 — SHARE YOUR LINK
+─────────────────────────────────────────────
+
+Your repo link will be:
+   https://github.com/YourUsername/Nova-Assistant
+
+Share this link with friends, on WhatsApp, Reddit, etc.
+They click it → download Nova.exe → double-click → done!
+
+To share just the download (not the full repo):
+   https://github.com/YourUsername/Nova-Assistant/releases/latest
+
+
+─────────────────────────────────────────────
+TIPS
+─────────────────────────────────────────────
+
+• Replace "YourUsername" with your actual GitHub username everywhere
+• If you update Nova later, just upload the new files and create v1.1 release
+• Add a screenshot of the UI to make your repo look great:
+    In GitHub, drag an image into the README.md editor
+
+That's it — Nova is now public! 🎉

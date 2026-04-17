@@ -1,0 +1,11 @@
+SpeechRecognition
+pyttsx3
+pyautogui
+groq
+openpyxl
+requests
+pywhatkit
+deep-translator
+psutil
+screen-brightness-control
+PyQt6
