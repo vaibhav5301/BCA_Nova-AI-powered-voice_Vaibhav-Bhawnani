@@ -3,22 +3,6 @@
   NOVA - AI-POWERED VOICE ASSISTANT v11
   AI powered by Groq (Free & Fast!)
 =====================================================
-
-FIXES IN v11:
-  [CALCULATOR]  - Understands spoken math naturally using AI-style word parsing
-                - Handles every type: basic, percent, sqrt, power, trig, fractions
-                - "what is" no longer conflicts with time/date commands
-                - Power operator (**) no longer gets stripped by regex
-  [NEWS]        - get_news() function written and wired into command router
-  [TAB NAV]     - "close" removed from tab nav keywords (was pressing Escape
-                  instead of closing apps)
-                - "open" removed from tab nav click keywords (was pressing Enter
-                  instead of opening websites/apps)
-                - Auto-exits after 3 consecutive silences so it never freezes
-  [ROUTING]     - Time/date checks moved before calculator so "what is the time"
-                  works correctly
-                - "what is" only routes to calculator when a math keyword is present
-
 INSTALL ALL DEPENDENCIES:
 pip install SpeechRecognition pyttsx3 pyautogui groq openpyxl
 pip install requests pywhatkit deep-translator psutil screen-brightness-control
