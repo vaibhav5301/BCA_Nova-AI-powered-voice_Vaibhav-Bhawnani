@@ -3,7 +3,7 @@
 # 🌟 NOVA — AI Voice Assistant
 
 **A smart, beautiful, always-listening AI assistant for Windows**  
-*Powered by Groq · Llama 3.3 · Built by Anjali Saraswat*
+*Powered by Groq · Llama 3.3 · Built by Vaibhav Bhawnani,Yash pawar,Tanu Kumari,Satakshi Chaturvedi*
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -165,7 +165,7 @@ MIT License — free to use, modify, and share. See [LICENSE](LICENSE) for detai
 
 <div align="center">
 
-Made with ❤️ by **Anjali Saraswat**
+Made with ❤️ by **Vaibhav Bhawnani,Yash pawar,Tanu Kumari,Satakshi Chaturvedi**
 
 *If you like Nova, give it a ⭐ on GitHub!*
 
